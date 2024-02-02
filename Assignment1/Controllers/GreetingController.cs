@@ -9,15 +9,17 @@ namespace Assignment1.Controllers
 {
     public class GreetingController : ApiController
     {
-        /*<summary> 
-           Returns the string “Hello World!”
-        </summary>
-        <return>
-            "string out put on CMD"
-        </return>
-        <examples>
-           POST curl -d "" localhost/Greeting/1
-        </example>
+        /*
+            <summary> 
+               Returns the string “Hello World!”
+            </summary>
+            <return>
+                "string out put on CMD"
+            </return>
+            <examples>
+               POST curl -d "" localhost/Greeting
+               "Hello World"
+            </example>
          */
         public string Post()
         {
